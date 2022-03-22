@@ -1,0 +1,63 @@
+.nav-bg {
+    background-color: PaleVioletRed;
+}
+
+#title1 {
+    background-color: aleVioletRed;
+}
+
+.jumbotron-fluid {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(45px);
+}
+
+body {
+    background: linear-gradient(to right,#DB7093, #FFC0CB);
+}
+.card-img-top{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.card-img-top:hover{
+    -webkit-filter: blur(5px);
+    filter: blur(1px);
+}
+.card-text:hover{
+    color:#DB7093;
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(178, 60, 253, 0.2);
+  }
+  .card-color{
+      background-color: #DB7093 !important;
+  }
+  .card {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(5px);
+  }
+
+  .rodape-prin
+  {
+      background-color:  rgb(0, 0, 0);       
+      clear: both;
+      padding: 28px;         
+      color: rgb(250,255,250);
+      font-size: 15px;
+      font-family: "arial", sans-serif;
+  }
+  
+  .icones-sociais li
+  {
+      display: inline-block;
+      float: right;
+      width: 40px;
+      height: 40px;
+  }
